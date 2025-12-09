@@ -1,6 +1,6 @@
 %% SISTEM KONTROL LQR DAN LQG UNTUK STEAM TURBINE
-% Author: Control System Design
-% Date: 2025
+% Author: Muhammad Naufal Anis
+% NRP: 6009242006
 
 clear all; close all; clc;
 
@@ -833,4 +833,5 @@ function result = iif(condition, true_val, false_val)
     else
         result = false_val;
     end
+
 end
